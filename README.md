@@ -1,2 +1,2 @@
 # rubilabswebsite
-The updated website for RubiLabs.\
+The updated website for RubiLabs.
