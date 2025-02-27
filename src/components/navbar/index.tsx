@@ -57,7 +57,7 @@ const Navbar = () => {
             <option className="text-black">English</option>
             <option className="text-black">日本語</option>
           </select>
-          <button className="bg-blue-600 px-6 py-2 rounded-full hover:bg-blue-500 transition">Launch App</button>
+          <button className="bg-blue-600 px-6 py-2 rounded-full hover:bg-blue-500 transition">Get Quotation</button>
         </motion.div>
       )}
     </nav>

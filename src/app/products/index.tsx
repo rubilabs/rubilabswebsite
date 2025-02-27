@@ -21,7 +21,7 @@ const products = [
 
 const Products = () => {
   return (
-    <section className="w-full py-14 bg-[#F3F3F3] flex flex-col items-center select-none">
+    <section className="w-full py-14 bg-[#F3F3F3] flex flex-col items-center select-none overflow-hidden">
       {/* Section Title */}
       <div className="w-full px-6 md:px-12 lg:px-24 text-left mb-8">
         <h2 className="text-3xl font-bold text-gray-800">Our Solutions</h2>
@@ -31,11 +31,11 @@ const Products = () => {
       </div>
 
       {/* Product Boxes */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl px-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl px-6 w-full overflow-hidden">
         {products.map((product, index) => (
           <motion.div
             key={index}
-            className="relative group overflow-hidden rounded-lg shadow-lg cursor-pointer w-[500px] h-[500px] mx-auto"
+            className="relative group overflow-hidden rounded-lg shadow-lg cursor-pointer w-full max-w-[400px] md:max-w-[500px] h-[500px] mx-auto"
             whileHover={{ scale: 1.05 }}
           >
             {/* Image */}
