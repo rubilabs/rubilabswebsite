@@ -33,7 +33,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className="text-lg font-open-sans mb-4">OmniLens</h3>
+          <h3 className="text-lg font-open-sans mb-4">Risk Control & Monitoring</h3>
           <ul className="space-y-2">
             <li className="font-open-sans text-md hover:cursor-pointer">Anti Money Laundering</li>
             <li className="font-open-sans text-md hover:cursor-pointer">Transaction Verification</li>

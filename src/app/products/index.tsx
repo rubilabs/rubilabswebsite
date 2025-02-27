@@ -1,18 +1,21 @@
-"use client"
+"use client";
 
 import React from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 const products = [
   {
     title: "Digital Onboarding",
+    slug: "/digital-onboarding",
     description: "Our digital onboarding solution in SDK or web-based plugins, for a seamless integration with your system. Our digital onboarding solution requires little to no code for integration and deployment, making it user-friendly and easily accessible by any entities who wish to adopt.",
     image: "/assets/digital-onboarding.jpeg"
   },
   {
     title: "Risk Control & Monitoring",
+    slug: "/risk",
     description: "A powerful AI-driven tool that enhances digital onboarding, fraud detection, and customer verification with unparalleled accuracy and security.",
-    image: "/assets/omnilens.jpg"
+    image: "/assets/risk-monitoring-landing.jpg"
   }
 ];
 
@@ -48,11 +51,13 @@ const Products = () => {
             >
               <h3 className="text-xl font-semibold text-white">{product.title}</h3>
               <p className="text-gray-300 text-sm mt-2">{product.description}</p>
-              <motion.button
-                className="mt-4 px-4 py-2 border border-white text-white rounded-full transition-opacity duration-300 hover:bg-white hover:text-black"
-              >
-                Discover More
-              </motion.button>
+              <Link href={product.slug}>
+                <motion.button
+                  className="mt-4 px-4 py-2 border border-white text-white rounded-full transition-opacity duration-300 hover:bg-white hover:text-black"
+                >
+                  Discover More
+                </motion.button>
+              </Link>
             </motion.div>
           </motion.div>
         ))}

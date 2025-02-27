@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -14,9 +15,11 @@ const Contact = () => {
         <p className="text-lg mt-4 max-w-2xl mx-auto">
           Reach out to us for inquiries, partnerships, or support. We are here to help and collaborate.
         </p>
+        <Link href="mailto:sales@rubilabs.com?subject=Information Request&body=Hello, I would like to inquire about...">
         <button className="border text-white border-gray-300 px-6 py-3 mt-[2rem] rounded-full text-lg font-normal hover:bg-black hover:text-white transition duration-200 ease-in-out">
           Contact Us
         </button>
+        </Link>
       </div>
     </section>
   );

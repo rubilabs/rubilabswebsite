@@ -39,7 +39,7 @@ const Commitment = () => {
   };
 
   return (
-    <section className="w-full py-14 bg-[#F3F3F3] flex flex-col items-center">
+    <section className="w-full py-14 bg-[#F3F3F3] flex flex-col items-center select-none">
       {/* Section Title and Subtitle Aligned Left */}
       <div className="w-full px-6 md:px-12 lg:px-24 text-left mb-8">
         <h2 className="text-3xl font-bold text-gray-800">Our Commitment</h2>
