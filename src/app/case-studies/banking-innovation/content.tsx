@@ -61,8 +61,8 @@ const BankingInnovationContent = () => {
         {/* Image Section */}
         <div className="flex flex-col space-y-6">
           <Image src="/assets/banking-innovation-1.jpg" alt="On-Premise Server" width={500} height={300} className="rounded-lg shadow-lg" />
-          <Image src="/assets/banking-innovation-2.jpg" alt="AI Integration" width={500} height={300} className="rounded-lg shadow-lg" />
-          <Image src="/assets/banking-innovation-3.jpg" alt="AI Integration" width={500} height={300} className="rounded-lg shadow-lg" />
+          <Image src="/assets/banking-innovation-2.jpg" alt="Penetration Testing" width={500} height={300} className="rounded-lg shadow-lg" />
+          <Image src="/assets/banking-innovation-3.jpg" alt="Data Exchange" width={500} height={300} className="rounded-lg shadow-lg" />
         </div>
       </div>
 
