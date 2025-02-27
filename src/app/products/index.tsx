@@ -10,7 +10,7 @@ const products = [
     image: "/assets/digital-onboarding.jpeg"
   },
   {
-    title: "OmniLens",
+    title: "Risk Control & Monitoring",
     description: "A powerful AI-driven tool that enhances digital onboarding, fraud detection, and customer verification with unparalleled accuracy and security.",
     image: "/assets/omnilens.jpg"
   }

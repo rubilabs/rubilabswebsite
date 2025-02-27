@@ -25,7 +25,7 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 text-md text-gray-800">
           <Link href="/digital-onboarding" className="hover:text-gray-300 ease-in-out">Digital Onboarding</Link>
-          <Link href="/omnilens" className="hover:text-gray-300 ease-in-out">Discover OmniLens</Link>
+          <Link href="/omnilens" className="hover:text-gray-300 ease-in-out">Risk Control & Monitoring</Link>
           <Link href="/about-us" className="hover:text-gray-300 ease-in-out">Discover RubiLabs</Link>
         </div>
 
@@ -50,11 +50,9 @@ const Navbar = () => {
           animate={{ opacity: 1, y: 0 }}
           className="md:hidden flex flex-col space-y-4 mt-4 bg-black p-4 rounded-lg"
         >
-          <Link href="#network" className="hover:text-gray-300">Payment Network</Link>
-          <Link href="#card" className="hover:text-gray-300">Card</Link>
-          <Link href="#discover" className="hover:text-gray-300">Discover NAKA</Link>
-          <Link href="#news" className="hover:text-gray-300">News</Link>
-          <Link href="#acquirers" className="hover:text-gray-300">2025 Acquirers Program</Link>
+          <Link href="#network" className="hover:text-gray-300">Digital Onboarding</Link>
+          <Link href="#card" className="hover:text-gray-300">Risk Control & Monitoring</Link>
+          <Link href="#discover" className="hover:text-gray-300">Discover RubiLabs</Link>
           <select className="w-full bg-black text-gray-800 border-none mt-2">
             <option className="text-black">English</option>
             <option className="text-black">日本語</option>

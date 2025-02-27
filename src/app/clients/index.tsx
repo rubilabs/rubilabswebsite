@@ -1,21 +1,25 @@
 "use client"
 
 import React from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 const caseStudies = [
   {
     title: "Banking Innovation",
+    slug: "banking-innovation",
     description: "How our digital onboarding solution simplifies and accelerates the account opening process, reducing paperwork and ensuring a seamless customer experience. Our approach leverages automation and AI to streamline identity verification and compliance checks, making onboarding faster and more secure than ever before.",
     image: "/assets/banking-innovation.jpg"
   },
   {
     title: "Framework Designing",
+    slug: "framework-designing",
     description: "How our real-time verifications and enhanced approach on customer profiling for onboarding helps regulators to structure a framework and set a benchmark to streamline a more concise, uniform, and trustworthy datasets for monitoring purposes. Our solutions enable better regulatory compliance and risk assessment, ensuring that businesses can operate within defined policies while minimizing fraudulent.",
     image: "/assets/framework-designing.jpg"
   },
   {
     title: "AI & Risk Monitoring",
+    slug: "ai-risk-monitoring",
     description: "How our behavioral artificial intelligence conducts risk-assessments based on background profile and activities. This approach increases efficiency in both continuous customer management and transaction monitoring, enhancing security and minimizing risks through behavioral judgement. Our AI-driven risk monitoring system adapts to evolving patterns, proactively identifying suspicious transactions and providing actionable insights.",
     image: "/assets/risk-monitoring.jpg"
   }
@@ -58,11 +62,13 @@ const CaseStudies = () => {
                 >
                   {study.description}
                 </motion.p>
-                <motion.button 
-                  className="mt-4 px-4 py-2 border border-white text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white hover:text-black"
-                >
-                  Discover More
-                </motion.button>
+                <Link href={`/case-studies/${study.slug}`}>
+                  <motion.button 
+                    className="mt-4 px-4 py-2 border border-white text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white hover:text-black"
+                  >
+                    Discover More
+                  </motion.button>
+                </Link>
               </div>
             </motion.div>
           </motion.div>
