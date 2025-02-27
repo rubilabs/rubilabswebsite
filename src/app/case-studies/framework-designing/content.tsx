@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 
-const BankingInnovationContent = () => {
+const FrameworkDesigningContent = () => {
   const router = useRouter();
 
   return (
@@ -72,7 +72,7 @@ const BankingInnovationContent = () => {
         <p className="text-gray-600 mt-4 text-lg">
           Prior to the initiation of the project, the requirement was to consult with the local authorities, to ensure that the system will abide by the regulations.
           As such, a direct communication and confirmation was taken to the Financial Services Agency of Japan (FSAJ), and a scheme for the data flow, user flow, and
-          systematic diagram for the hosting was drafted alongside the Tokyo branch of the bank.
+          systematic diagram for the hosting was drafted alongside the bank's Tokyo branch.
         </p>
       </div>  
       <div className="max-w-5xl mt-12 text-left">
@@ -88,4 +88,4 @@ const BankingInnovationContent = () => {
   );
 };
 
-export default BankingInnovationContent;
+export default FrameworkDesigningContent;
