@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import Link from "next/link";
@@ -31,7 +31,7 @@ const CaseStudies = () => {
       <div className="w-full px-6 md:px-12 lg:px-24 text-left mb-8">
         <h2 className="text-3xl font-bold text-gray-800">Our Case Studies</h2>
         <p className="text-gray-600 mt-2 text-lg max-w-2xl">
-         Explore on our past cases and how we addressed the problems given through our solutions.
+          Explore on our past cases and how we addressed the problems given through our solutions.
         </p>
       </div>
       <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-8 px-6 relative">
@@ -50,10 +50,7 @@ const CaseStudies = () => {
             
             {/* Overlay Layer Expanding */}
             <motion.div 
-              className="absolute bottom-0 left-0 w-full bg-black bg-opacity-70 p-4 transition-all duration-300 flex flex-col justify-end"
-              initial={{ height: "40%" }}
-              whileHover={{ height: "100%" }}
-              style={{ minHeight: "40%" }}
+              className="absolute bottom-0 left-0 w-full bg-black bg-opacity-70 p-4 transition-all duration-300 flex flex-col justify-end opacity-100 group-hover:opacity-100 h-[40%] group-hover:h-full"
             >
               <div className="flex flex-col justify-start h-full transition-all duration-300">
                 <motion.p className="text-lg font-semibold text-white min-h-[50px] flex items-center">{study.title}</motion.p>
