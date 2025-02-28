@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
 
 const Footer = () => {
@@ -99,13 +98,12 @@ const Footer = () => {
       {/* Social Media Icons */}
       <div className="mt-3 pt-3 max-w-7xl mx-auto flex space-x-3">
         <div className="rounded-full w-10 h-10 bg-[#424B57] hover:cursor-pointer flex justify-center items-center">
+          <Link href="https://www.linkedin.com/company/rubi-labs/">
           <FaLinkedin />
+          </Link>
         </div>
         <div className="rounded-full w-10 h-10 bg-[#424B57] hover:cursor-pointer flex justify-center items-center">
-          <FaXTwitter />
-        </div>
-        <div className="rounded-full w-10 h-10 bg-[#424B57] hover:cursor-pointer flex justify-center items-center">
-          <FaInstagram />
+          <FaWhatsapp />
         </div>
       </div>
     </footer>

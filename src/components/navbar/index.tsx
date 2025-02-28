@@ -46,19 +46,23 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <motion.div 
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="md:hidden flex flex-col space-y-4 mt-4 bg-black p-4 rounded-lg"
-        >
-          <Link href="/digital-onboarding" className="hover:text-gray-300">Digital Onboarding</Link>
-          <Link href="/risk-monitoring" className="hover:text-gray-300">Risk Control & Monitoring</Link>
-          <Link href="/about-us" className="hover:text-gray-300">Discover RubiLabs</Link>
-          <select className="w-full bg-black text-gray-800 border-none mt-2">
-            <option className="text-black">English</option>
-            <option className="text-black">日本語</option>
-          </select>
-          <button className="bg-blue-600 px-6 py-2 rounded-full hover:bg-blue-500 transition">Get Quotation</button>
-        </motion.div>
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="md:hidden w-full flex flex-col space-y-4 mt-4 bg-transparent dark:bg-transparent p-4 backdrop-blur-lg"
+      >
+        <Link href="/digital-onboarding" className="text-gray-800 hover:text-gray-500">Digital Onboarding</Link>
+        <Link href="/risk-monitoring" className="text-gray-800 hover:text-gray-500">Risk Control & Monitoring</Link>
+        <Link href="/about-us" className="text-gray-800 hover:text-gray-500">Discover RubiLabs</Link>
+        
+        <select className="w-full bg-transparent text-gray-800 border border-gray-400 px-4 py-2 rounded-md mt-2">
+          <option className="text-white">English</option>
+          <option className="text-white">日本語</option>
+        </select>
+        
+        <button className="bg-gray-800 px-6 py-2 rounded-full text-white hover:bg-gray-600 transition">
+          Get Quotation
+        </button>
+      </motion.div>
       )}
     </nav>
   );

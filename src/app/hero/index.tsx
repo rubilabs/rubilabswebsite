@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 const images = [
@@ -35,9 +36,11 @@ const Hero = () => {
           Discover our automated solutions with seamless integration to your existing system.
         </p>
         <div className="mt-8 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 justify-center md:justify-start">
+          <Link href="/about-us">
           <button className="border text-gray-800 border-gray-300 px-6 py-3 rounded-full text-lg font-normal hover:bg-gray-800 hover:text-white transition duration-200 ease-in-out">
             Learn More
           </button>
+          </Link>
         </div>
       </motion.div>
 
