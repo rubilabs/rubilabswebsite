@@ -75,14 +75,24 @@ const Footer = () => {
           <Link href="/privacy-policy" className="hover:underline">
             Privacy Policy
           </Link>
-          <a href="#" className="hover:underline">Terms for financial services</a>
-          <a href="#" className="hover:underline">Data processing privacy</a>
-          <a href="#" className="hover:underline">Data security policy</a>
+          <a href="#" className="hover:underline">Terms for Financial Services</a>
+          <Link href="/data-processing" className="hover:underline">
+            Data Processing Privacy
+          </Link>
+          <Link href="/data-security" className="hover:underline">
+            Data Security Policy
+          </Link>
         </div>
         <div className="flex flex-wrap mt-4 space-x-4">
-          <a href="#" className="hover:underline">Customer rights and security guide</a>
-          <a href="#" className="hover:underline">Money Laundering and Control Act</a>
-          <a href="#" className="hover:underline">Countering The Financing of Terrorism</a>
+          <Link href="/customer-rights" className="hover:underline">
+            Customer Rights and Security Guide
+          </Link>
+          <Link href="/money-laundry" className="hover:underline">
+            Money Laundering and Control Act
+          </Link>
+          <Link href="/counter-terrorist" className="hover:underline">
+            Countering The Financing of Terrorism
+          </Link>
         </div>
       </div>
 
