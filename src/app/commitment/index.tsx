@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
@@ -64,10 +64,7 @@ const Commitment = () => {
 
           {/* Overlay Layer Expanding */}
           <motion.div
-            className="absolute bottom-0 left-0 w-full bg-black bg-opacity-70 p-6 transition-all duration-300 flex flex-col justify-end"
-            initial={{ height: "40%" }}
-            whileHover={{ height: "100%" }}
-            style={{ minHeight: "40%" }}
+            className="absolute bottom-0 left-0 w-full bg-black bg-opacity-70 p-6 transition-all duration-300 flex flex-col justify-end opacity-100 group-hover:opacity-100 h-[40%] group-hover:h-full"
           >
             <div className="flex flex-col justify-start h-full transition-all duration-300">
               <motion.h3 className="text-xl font-semibold text-white min-h-[50px] flex items-center">
