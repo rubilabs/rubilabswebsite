@@ -13,7 +13,7 @@ const products = [
   },
   {
     title: "Risk Control & Monitoring",
-    slug: "/risk",
+    slug: "/risk-monitoring",
     description: "A powerful AI-driven tool that enhances digital onboarding, fraud detection, and customer verification with unparalleled accuracy and security.",
     image: "/assets/risk-monitoring-landing.jpg"
   }

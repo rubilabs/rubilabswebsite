@@ -18,6 +18,21 @@ const features = [
     title: "OCR & Dynamic Auto-Filling",
     description: "Information detected from the supplied document will be extracted as it is, and will be filled to the forms accordingly. Depending on the structure of the form, the autofilling process may adjust to each specific needs.",
     image: "/assets/ocr-autofill.jpg"
+  },
+  {
+    title: "Liveliness and Randomness Test",
+    description: "Embedded in our system used to determine the genuity and credibility of the onboarding client. A random liveliness test will be given based on algorithm to determine the authenticity of the onboarding client.",
+    image: "/assets/digital-onboarding-4.jpg"
+  },
+  {
+    title: "Anti Video Injection",
+    description: "Detection of video recording during the onboarding process instead of real-time photoshoot. Our system automaticall prevents onboarding user to move forward with the process upon detection of video recording.",
+    image: "/assets/digital-onboarding-5.jpg"
+  },
+  {
+    title: "Accessory and Mask Prevention",
+    description: "Automatic detection of accessory and masks, preventing onboarding clients to move forward with the process. A liveliness test are performed to support system judgement based on different facial angles.",
+    image: "/assets/digital-onboarding-6.jpg"
   }
 ];
 
