@@ -2,14 +2,12 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 const members = [
   {
     title: "Qais Al-Lamki",
     description: "Qais Al Lamki (“Qais”) currently serves as the partner of Meridian Financials Oman, the board member of Meridian Financials, and is the Founder and Executive Board Member of National Eastern Oasis, SPC. Over the past 17 years, Qais has been honing his expertise in the banking and financial sector, as well as building government relations.",
     image: "/assets/board-1.jpeg",
-    slug: "in/qais-al-lamki-6338811a",
   },
 ];
 
@@ -47,13 +45,6 @@ const Board = () => {
                 >
                   {study.description}
                 </motion.p>
-                <Link href={`https://linkedin.com/${study.slug}`}>
-                  <motion.button 
-                    className="mt-4 px-4 py-2 border border-white text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white hover:text-black"
-                  >
-                    Discover More
-                  </motion.button>
-                </Link>
               </div>
             </motion.div>
           </motion.div>
