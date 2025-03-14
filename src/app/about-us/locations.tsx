@@ -14,11 +14,11 @@ const locations = [
   },
   {
     country: "Sultanate of Oman",
-    company: "Meridian Financials LLC",
+    company: "Meridian Financials LLC (Oman)",
     address: "Muscat Hills, Business Tower 1, 4th Floor 406, PO 921, PC 133 Al Khuwair, Sultanate of Oman",
     contact: "",
     image: "/assets/location-2.jpg",
-    description: "Meridian Financials LLC is a subsidiary of Rubi Labs Inc, Japan, joint with National Eastern Oasis PLC. A strategic-joint company for the purpose of delivering Rubi Labs technologies for the use in the Oman domestic market, and its surrounding Gulf region.",
+    description: "Meridian Financials LLC is a subsidiary of Rubi Labs Inc, Japan, joint with National Eastern Oasis PLC. A strategic-joint company for the purpose of delivering Rubi Labs technologies for the use in the Sultanate of Oman domestic market, and its surrounding Gulf region. Expected to be operable by Q2 of FY2025.",
   },
 ];
 

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const members = [
   {
     title: "Qais Al-Lamki",
-    description: "Qais Al Lamki (“Qais”) currently serves as the partner of Meridian Financials Oman, the board member of Meridian Financials, and is the Founder and Executive Board Member of National Eastern Oasis, SPC. Over the past 17 years, Qais has been honing his expertise in the banking and financial sector, as well as building government relations.",
+    description: "Qais Al Lamki (“Qais”) currently serves as the partner of Meridian Financials Oman, the board member of Meridian Financials, and is the Founder and Executive Board Member of National Eastern Oasis, SPC. Over the past 17 years, Qais has been honing his expertise in the banking and financial sector, as well as building government relations. Qais has been recognized by the Oman Banking and Finance Awards 2018, and has been awarded with CEO Awards Winner 2017 by the Business World Magazine.",
     image: "/assets/board-1.jpeg",
   },
 ];
