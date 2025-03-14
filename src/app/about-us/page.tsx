@@ -8,6 +8,8 @@ import Alliances from './alliances'
 import FAQ from './faq'
 import Announcements from './announcements'
 import Contact from '../contact'
+import Locations from './locations'
+import Board from './board'
 
 const page = () => {
   return (
@@ -16,6 +18,8 @@ const page = () => {
      <About />
      <Values />
      <Profile />
+     <Locations />
+     <Board />
      <Alliances />
      <Announcements />
      <FAQ />
