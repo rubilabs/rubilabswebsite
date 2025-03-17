@@ -2,25 +2,26 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const caseStudies = [
   {
     title: "Middle East Digital Onboarding",
     slug: "middle-east",
     description: "How our participation in the latest event held by the Financial Services Authorities of Oman contributes to the landscape.",
-    image: "/assets/announcement-1.jpg"
+    image: "/assets/announcement-1.jpg",
   },
   {
     title: "Business Matching in Southeast Asia",
     slug: "southeast-asia",
     description: "How our participation in driving synergies with global bank headquartered in Jakarta, Indonesia contributes to the landscape.",
-    image: "/assets/announcement-2.jpg"
+    image: "/assets/announcement-2.jpg",
   },
   {
     title: "Rebranding Brand Image",
-    slug: "brand-image",
+    slug: "rebranding",
     description: "How we change the way we bring ourselves to the podium, and how we announce our vision and mission to the global stage.",
-    image: "/assets/about-1.jpeg"
+    image: "/assets/about-1.jpeg",
   }
 ];
 
@@ -58,13 +59,13 @@ const Announcements = () => {
                 >
                   {study.description}
                 </motion.p>
-                {/* <Link href={`/case-studies/${study.slug}`}>
+                <Link href={`/announcements/${study.slug}`}>
                   <motion.button 
                     className="mt-4 px-4 py-2 border border-white text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-white hover:text-black"
                   >
                     Read More
                   </motion.button>
-                </Link> */}
+                </Link>
               </div>
             </motion.div>
           </motion.div>
